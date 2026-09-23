@@ -1,0 +1,3 @@
+# course.local/example
+# [course.local/example]
+./main.go:7:2: fmt.Printf format %d has arg host of wrong type string

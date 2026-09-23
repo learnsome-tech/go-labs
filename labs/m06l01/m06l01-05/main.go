@@ -1,0 +1,23 @@
+# Concurrent Systems Programming with Go — lesson m06l01 — Parsing Arguments with flag
+# https://learnsome.tech/courses/go-course/watch?lesson=m06l01
+# © LearnSome.tech
+package main
+
+import (
+	"flag"
+	"fmt"
+	"os"
+)
+
+func envOr(key, fallback string) string {
+	if v, ok := os.LookupEnv(key); ok {
+		return v
+	}
+	return fallback
+}
+
+func main() {
+	addr := flag.String("addr", envOr("PROBE_ADDR", "127.0.0.1:8080"), "address")
+	flag.Parse()
+	fmt.Println("addr:", *addr)
+}

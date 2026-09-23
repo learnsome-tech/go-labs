@@ -1,0 +1,5 @@
+{
+  "command": "go run . web01; echo \"exit=$?\"",
+  "stream": "combined",
+  "reason": "Go toolchain is unavailable on this machine"
+}

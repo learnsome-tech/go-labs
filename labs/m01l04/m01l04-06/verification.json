@@ -1,0 +1,6 @@
+{
+  "command": "go build -o diskcheck . && ./diskcheck",
+  "stream": "combined",
+  "exit": 1,
+  "reason": "Go toolchain is unavailable on this machine"
+}

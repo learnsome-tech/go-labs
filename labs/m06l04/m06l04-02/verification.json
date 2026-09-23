@@ -1,0 +1,4 @@
+{
+  "command": "sh build.sh",
+  "reason": "Go toolchain is unavailable on this machine"
+}

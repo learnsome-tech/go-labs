@@ -1,0 +1,3 @@
+string int float64
+int64 bool string
+db-1 5432 0.75 3 false stable

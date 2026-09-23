@@ -1,0 +1,7 @@
+{
+  "entries": true,
+  "files": {
+    "main.go": "package main\n\nimport \"fmt\"\n\nfunc main() {\nfmt.Println( \"drift\" )\n}\n"
+  },
+  "reason": "Go toolchain is unavailable on this machine"
+}

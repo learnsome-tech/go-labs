@@ -1,0 +1,2 @@
+checking one host
+all good

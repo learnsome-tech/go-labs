@@ -1,0 +1,2 @@
+probe.conf: present, 23 bytes
+gone.conf: absent

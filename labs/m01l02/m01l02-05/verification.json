@@ -1,0 +1,7 @@
+{
+  "command": "go vet ./...",
+  "stream": "combined",
+  "exit": "any",
+  "skipBuild": true,
+  "reason": "Go toolchain is unavailable on this machine"
+}

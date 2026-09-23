@@ -1,0 +1,6 @@
+host db-1 port 5432
+quoted "db-1" ready true
+value {db-1 5432}
+fields {Host:db-1 Port:5432}
+type main.target
+db-1:5432

@@ -1,0 +1,8 @@
+{
+  "module": "course.local/probe",
+  "command": "go run .",
+  "files": {
+    "main.go": "package main\n\nimport (\n\t\"fmt\"\n\n\t\"course.local/probe/internal/check\"\n)\n\nfunc main() {\n\tfmt.Println(check.Describe(check.Target{Name: \"db-1\", Port: 5432}))\n}\n"
+  },
+  "reason": "Go toolchain is unavailable on this machine"
+}

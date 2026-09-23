@@ -1,0 +1,6 @@
+{
+  "files": {
+    "probe.conf": "interval=30s\nretries=3\n"
+  },
+  "reason": "Go toolchain is unavailable on this machine"
+}

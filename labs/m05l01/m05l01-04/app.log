@@ -1,0 +1,2 @@
+level=info msg=ready
+level=warn msg=slow

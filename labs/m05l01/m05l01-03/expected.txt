@@ -1,0 +1,3 @@
+read 23 bytes
+interval=30s
+retries=3

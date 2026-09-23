@@ -1,0 +1,4 @@
+{
+  "command": "PROBE_TIMEOUT=5s go run .",
+  "reason": "Go toolchain is unavailable on this machine"
+}

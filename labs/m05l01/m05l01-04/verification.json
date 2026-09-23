@@ -1,0 +1,6 @@
+{
+  "files": {
+    "app.log": "level=info msg=ready\nlevel=warn msg=slow\n"
+  },
+  "reason": "Go toolchain is unavailable on this machine"
+}

@@ -1,0 +1,4 @@
+hosts: 3 tries: 2
+1 web-1
+2 web-2
+3 db-1

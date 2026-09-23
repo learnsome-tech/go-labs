@@ -1,0 +1,7 @@
+{
+  "entries": true,
+  "files": {
+    "main.go": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tfmt.Println(\"checking one host\")\n\tfmt.Println(\"all good\")\n}\n"
+  },
+  "reason": "Go toolchain is unavailable on this machine"
+}

@@ -1,0 +1,2 @@
+text: ready
+not text

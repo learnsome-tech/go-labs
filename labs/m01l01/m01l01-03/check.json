@@ -1,0 +1,23 @@
+{
+  "lab": "m01l01-03",
+  "lesson": "m01l01",
+  "title": "The build step, and what it produces",
+  "mode": "run",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "go"
+  ],
+  "note": "the lesson recorded its output with `go version; go build -o probe .; ./probe`, not the way the site runs it, so the output is not compared."
+}

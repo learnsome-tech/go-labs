@@ -1,23 +1,21 @@
-# Containerizing and Testing the Final Build
+# m07l05 · Containerizing and Testing the Final Build
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: Project: End to End Health Checker  
-**Lesson**: `m07l05`
+Module 7: Project: End to End Health Checker · lesson 7.5 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m07l05)
 
-## Links
+**Goal:** You can test the finished checker, build a small runtime image, and connect its exit status to an orchestrator.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m07l05)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-7-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l05-02](m07l05-02/) | A final unit test shape | Read along |
 
-- [`m07l05-01/`](m07l05-01/)
-- [`m07l05-02/`](m07l05-02/)
-- [`m07l05-03/`](m07l05-03/)
-- [`m07l05-04/`](m07l05-04/)
-- [`m07l05-05/`](m07l05-05/)
+## Check yourself
+
+- What does the final image contain?
+- Why test before building the binary?
+- Which signals does an orchestrator consume?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

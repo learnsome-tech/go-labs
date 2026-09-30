@@ -1,2 +1,0 @@
-# course.local/example
-./main.go:5:2: "os" imported and not used

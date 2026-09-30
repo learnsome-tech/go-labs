@@ -1,0 +1,23 @@
+{
+  "lab": "m02l04-02",
+  "lesson": "m02l04",
+  "title": "A type satisfies an interface silently",
+  "mode": "graded",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "go"
+  ],
+  "note": null
+}

@@ -1,0 +1,23 @@
+{
+  "lab": "m05l01-06",
+  "lesson": "m05l01",
+  "title": "Exit codes are the contract with CI",
+  "mode": "run",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "go"
+  ],
+  "note": "the lesson recorded its output with `go run . web01; echo \"exit=$?\"`, not the way the site runs it, so the output is not compared."
+}

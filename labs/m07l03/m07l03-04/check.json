@@ -1,0 +1,23 @@
+{
+  "lab": "m07l03-04",
+  "lesson": "m07l03",
+  "title": "A failed result stays attached",
+  "mode": "graded",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "go"
+  ],
+  "note": null
+}

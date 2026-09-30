@@ -1,0 +1,23 @@
+{
+  "lab": "m06l01-02",
+  "lesson": "m06l01",
+  "title": "Declaring typed options and parsing them",
+  "mode": "run",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "go"
+  ],
+  "note": "the recorded output depends on the machine it ran on, so the site runs it without a pass or fail."
+}

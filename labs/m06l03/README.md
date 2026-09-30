@@ -1,23 +1,22 @@
-# Graceful Shutdown on SIGTERM
+# m06l03 · Graceful Shutdown on SIGTERM
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: Building CLIs and Services  
-**Lesson**: `m06l03`
+Module 6: Building CLIs and Services · lesson 6.3 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m06l03)
 
-## Links
+**Goal:** You can stop accepting traffic on SIGTERM, cancel active work, and let a Go service finish cleanly.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m06l03)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-6-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l03-02](m06l03-02/) | Waiting for SIGTERM | Runs, not graded |
+| [m06l03-04](m06l03-04/) | A bounded shutdown call | Graded |
 
-- [`m06l03-01/`](m06l03-01/)
-- [`m06l03-02/`](m06l03-02/)
-- [`m06l03-03/`](m06l03-03/)
-- [`m06l03-04/`](m06l03-04/)
-- [`m06l03-05/`](m06l03-05/)
+## Check yourself
+
+- What does SIGTERM mean to a service?
+- Why does Shutdown need a context?
+- When should main return?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

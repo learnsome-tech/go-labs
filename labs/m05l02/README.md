@@ -1,23 +1,22 @@
-# Streams and the io Package
+# m05l02 · Streams and the io Package
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: The Standard Library for Tooling  
-**Lesson**: `m05l02`
+Module 5: The Standard Library for Tooling · lesson 5.2 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m05l02)
 
-## Links
+**Goal:** You can copy streams, read bounded input, and treat files and network bodies through common interfaces.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m05l02)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-5-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l02-02](m05l02-02/) | Copying a stream | Graded |
+| [m05l02-04](m05l02-04/) | Reading a bounded prefix | Graded |
 
-- [`m05l02-01/`](m05l02-01/)
-- [`m05l02-02/`](m05l02-02/)
-- [`m05l02-03/`](m05l02-03/)
-- [`m05l02-04/`](m05l02-04/)
-- [`m05l02-05/`](m05l02-05/)
+## Check yourself
+
+- What do Reader and Writer abstract?
+- Why might ReadAll be unsafe?
+- What does io Copy return?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

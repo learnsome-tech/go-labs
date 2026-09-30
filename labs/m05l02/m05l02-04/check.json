@@ -1,0 +1,23 @@
+{
+  "lab": "m05l02-04",
+  "lesson": "m05l02",
+  "title": "Reading a bounded prefix",
+  "mode": "graded",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "go"
+  ],
+  "note": null
+}

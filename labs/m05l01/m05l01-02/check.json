@@ -1,0 +1,23 @@
+{
+  "lab": "m05l01-02",
+  "lesson": "m05l01",
+  "title": "Arguments and environment",
+  "mode": "run",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "go"
+  ],
+  "note": "the lesson recorded its output with `PROBE_TIMEOUT=5s go run .`, not the way the site runs it, so the output is not compared."
+}

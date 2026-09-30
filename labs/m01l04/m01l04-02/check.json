@@ -1,0 +1,23 @@
+{
+  "lab": "m01l04-02",
+  "lesson": "m01l04",
+  "title": "Watching the three verbs behave",
+  "mode": "run",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "go"
+  ],
+  "note": "the lesson recorded its output with `go run .; go build -o diskcheck .; ./diskcheck; go run . more arguments`, not the way the site runs it, so the output is not compared."
+}

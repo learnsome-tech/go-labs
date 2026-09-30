@@ -1,0 +1,24 @@
+{
+  "lab": "m05l01-04",
+  "lesson": "m05l01",
+  "title": "Opening a file, and closing it",
+  "mode": "graded",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "app.log",
+    "go.mod",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "go"
+  ],
+  "note": null
+}

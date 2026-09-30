@@ -1,0 +1,24 @@
+{
+  "lab": "m01l03-03",
+  "lesson": "m01l03",
+  "title": "Splitting a tool into packages",
+  "mode": "graded",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "internal/check/check.go",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "go"
+  ],
+  "note": null
+}

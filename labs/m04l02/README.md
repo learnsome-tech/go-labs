@@ -1,23 +1,22 @@
-# Channels and Synchronization
+# m04l02 · Channels and Synchronization
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: Concurrency and Context  
-**Lesson**: `m04l02`
+Module 4: Concurrency and Context · lesson 4.2 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m04l02)
 
-## Links
+**Goal:** You can send values through channels, close them deliberately, and use channels as ownership boundaries.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m04l02)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-4-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l02-02](m04l02-02/) | Sending and receiving a value | Graded |
+| [m04l02-04](m04l02-04/) | Ranging over a closed channel | Graded |
 
-- [`m04l02-01/`](m04l02-01/)
-- [`m04l02-02/`](m04l02-02/)
-- [`m04l02-03/`](m04l02-03/)
-- [`m04l02-04/`](m04l02-04/)
-- [`m04l02-05/`](m04l02-05/)
+## Check yourself
+
+- What does an unbuffered send do?
+- Who should close a channel?
+- What does range do after a channel closes?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

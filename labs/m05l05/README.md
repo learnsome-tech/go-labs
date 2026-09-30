@@ -1,23 +1,22 @@
-# Calling APIs with net/http Client
+# m05l05 · Calling APIs with net/http Client
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: The Standard Library for Tooling  
-**Lesson**: `m05l05`
+Module 5: The Standard Library for Tooling · lesson 5.5 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m05l05)
 
-## Links
+**Goal:** You can issue an HTTP request with a context, check the response, and close the body on every path.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m05l05)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-5-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l05-02](m05l05-02/) | A request to a local server | Graded |
+| [m05l05-04](m05l05-04/) | Testing a response with a fake round tripper | Graded |
 
-- [`m05l05-01/`](m05l05-01/)
-- [`m05l05-02/`](m05l05-02/)
-- [`m05l05-03/`](m05l05-03/)
-- [`m05l05-04/`](m05l05-04/)
-- [`m05l05-05/`](m05l05-05/)
+## Check yourself
+
+- Why can a non two hundred response have a nil error?
+- When should a response body be closed?
+- What does a custom transport help you test?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

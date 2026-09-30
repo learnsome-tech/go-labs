@@ -1,23 +1,21 @@
-# Building Static Binaries
+# m06l04 · Building Static Binaries
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: Building CLIs and Services  
-**Lesson**: `m06l04`
+Module 6: Building CLIs and Services · lesson 6.4 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m06l04)
 
-## Links
+**Goal:** You can build a portable Go binary with reproducible flags and inspect the result before shipping it.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m06l04)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-6-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l04-04](m06l04-04/) | Inspecting build metadata | Graded |
 
-- [`m06l04-01/`](m06l04-01/)
-- [`m06l04-02/`](m06l04-02/)
-- [`m06l04-03/`](m06l04-03/)
-- [`m06l04-04/`](m06l04-04/)
-- [`m06l04-05/`](m06l04-05/)
+## Check yourself
+
+- Why disable cgo for a portable binary?
+- What assumptions travel with a binary?
+- Where should build flags live?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

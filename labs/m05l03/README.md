@@ -1,23 +1,22 @@
-# The time Package
+# m05l03 · The time Package
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: The Standard Library for Tooling  
-**Lesson**: `m05l03`
+Module 5: The Standard Library for Tooling · lesson 5.3 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m05l03)
 
-## Links
+**Goal:** You can measure elapsed work, schedule ticks, and format timestamps without confusing a duration with a wall clock time.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m05l03)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-5-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l03-02](m05l03-02/) | Measuring elapsed work | Graded |
+| [m05l03-04](m05l03-04/) | Formatting a UTC timestamp | Graded |
 
-- [`m05l03-01/`](m05l03-01/)
-- [`m05l03-02/`](m05l03-02/)
-- [`m05l03-03/`](m05l03-03/)
-- [`m05l03-04/`](m05l03-04/)
-- [`m05l03-05/`](m05l03-05/)
+## Check yourself
+
+- What is the difference between Time and Duration?
+- Why is UTC useful in logs?
+- When should a ticker be stopped?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

@@ -1,4 +1,0 @@
-{
-  "command": "sh release.sh",
-  "reason": "Go toolchain and Docker are unavailable on this machine"
-}

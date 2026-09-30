@@ -1,23 +1,22 @@
-# The context Package
+# m04l04 · The context Package
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: Concurrency and Context  
-**Lesson**: `m04l04`
+Module 4: Concurrency and Context · lesson 4.4 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m04l04)
 
-## Links
+**Goal:** You can pass context through a call chain and use its deadline and values at the right boundaries.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m04l04)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-4-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l04-02](m04l04-02/) | Passing a context through a function | Graded |
+| [m04l04-04](m04l04-04/) | Observing a cancelled context | Graded |
 
-- [`m04l04-01/`](m04l04-01/)
-- [`m04l04-02/`](m04l04-02/)
-- [`m04l04-03/`](m04l04-03/)
-- [`m04l04-04/`](m04l04-04/)
-- [`m04l04-05/`](m04l04-05/)
+## Check yourself
+
+- What should context values contain?
+- How does a worker observe cancellation?
+- Why must the owner call cancel?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

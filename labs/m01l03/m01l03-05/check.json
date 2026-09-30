@@ -1,0 +1,23 @@
+{
+  "lab": "m01l03-05",
+  "lesson": "m01l03",
+  "title": "Tidy and vendor, and what they are for",
+  "mode": "run",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "go"
+  ],
+  "note": "the lesson recorded its output with `go mod tidy; go mod vendor; go build ./...`, not the way the site runs it, so the output is not compared."
+}

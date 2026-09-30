@@ -1,1 +1,0 @@
-app: ELF 64-bit LSB executable

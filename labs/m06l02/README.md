@@ -1,23 +1,22 @@
-# Serving HTTP with net/http Server
+# m06l02 · Serving HTTP with net/http Server
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: Building CLIs and Services  
-**Lesson**: `m06l02`
+Module 6: Building CLIs and Services · lesson 6.2 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m06l02)
 
-## Links
+**Goal:** You can expose a small HTTP handler, return useful status codes, and configure a server with a timeout.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m06l02)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-6-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l02-02](m06l02-02/) | A health handler | Graded |
+| [m06l02-04](m06l02-04/) | Testing a handler in memory | Runs, not graded |
 
-- [`m06l02-01/`](m06l02-01/)
-- [`m06l02-02/`](m06l02-02/)
-- [`m06l02-03/`](m06l02-03/)
-- [`m06l02-04/`](m06l02-04/)
-- [`m06l02-05/`](m06l02-05/)
+## Check yourself
+
+- What does a handler receive?
+- Why test a handler with a recorder?
+- How do liveness and readiness differ?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

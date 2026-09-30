@@ -1,23 +1,22 @@
-# Project Setup and Configuration
+# m07l01 · Project Setup and Configuration
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: Project: End to End Health Checker  
-**Lesson**: `m07l01`
+Module 7: Project: End to End Health Checker · lesson 7.1 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m07l01)
 
-## Links
+**Goal:** You can start the health checker with typed configuration, clear defaults, and a small target model.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m07l01)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-7-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l01-02](m07l01-02/) | A typed target list | Graded |
+| [m07l01-04](m07l01-04/) | Validating a target | Graded |
 
-- [`m07l01-01/`](m07l01-01/)
-- [`m07l01-02/`](m07l01-02/)
-- [`m07l01-03/`](m07l01-03/)
-- [`m07l01-04/`](m07l01-04/)
-- [`m07l01-05/`](m07l01-05/)
+## Check yourself
+
+- Why validate before starting workers?
+- What belongs in a target struct?
+- Where should defaults be chosen?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

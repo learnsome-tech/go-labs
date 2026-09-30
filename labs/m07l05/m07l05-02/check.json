@@ -1,0 +1,21 @@
+{
+  "lab": "m07l05-02",
+  "lesson": "m07l05",
+  "title": "A final unit test shape",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "main_test.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "main_test.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a Go test file: run it with `go test` in its module. The lab sandbox only runs programs (`go run`)."
+}

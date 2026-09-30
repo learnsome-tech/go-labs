@@ -1,4 +1,0 @@
-args: [check web01]
-action: check host: web01
-timeout: 5s
-debug: unset

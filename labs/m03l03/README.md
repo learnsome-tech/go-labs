@@ -1,25 +1,35 @@
-# Panics and Recover
+# m03l03 · Panics and Recover
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: Errors and Testing  
-**Lesson**: `m03l03`
+Module 3: Errors and Testing · lesson 3.3 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m03l03)
 
-## Links
+**Goal:** You can distinguish a programmer invariant from an expected operational error and use recover only at a deliberate boundary.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m03l03)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-3-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l03-02](m03l03-02/) | An ordinary error keeps control | Graded |
+| [m03l03-03](m03l03-03/) | Recover at a worker boundary | Graded |
+| [m03l03-05](m03l03-05/) | Deferred cleanup still runs | Graded |
 
-- [`m03l03-01/`](m03l03-01/)
-- [`m03l03-02/`](m03l03-02/)
-- [`m03l03-03/`](m03l03-03/)
-- [`m03l03-04/`](m03l03-04/)
-- [`m03l03-05/`](m03l03-05/)
-- [`m03l03-06/`](m03l03-06/)
-- [`m03l03-07/`](m03l03-07/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Try it yourself
+
+1. Write a worker that returns an error for bad input.
+2. Add a separate invariant check that panics.
+3. Recover at the supervisor boundary and print whether the worker failed or was contained.
+
+> **Hint:** Keep recovery in a deferred function at the boundary that owns the worker.
+
+## Check yourself
+
+- Which failures should be returned as errors?
+- Where does recover belong?
+- Why is recovered state not automatically safe?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

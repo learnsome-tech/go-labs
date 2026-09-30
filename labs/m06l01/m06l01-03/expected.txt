@@ -1,7 +1,0 @@
-flag provided but not defined: -bogus
-usage: probe [flags] host...
-  -addr string
-    	address to probe (default "127.0.0.1:8080")
-  -tries int
-    	attempts before giving up (default 3)
-exit status 2

@@ -1,23 +1,22 @@
-# Context Cancellation and Timeouts
+# m04l05 · Context Cancellation and Timeouts
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: Concurrency and Context  
-**Lesson**: `m04l05`
+Module 4: Concurrency and Context · lesson 4.5 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m04l05)
 
-## Links
+**Goal:** You can bound a concurrent operation with a timeout and return promptly when an orchestrator or caller cancels it.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m04l05)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-4-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l05-02](m04l05-02/) | A timeout returns an error | Graded |
+| [m04l05-04](m04l05-04/) | A caller cancels a worker | Graded |
 
-- [`m04l05-01/`](m04l05-01/)
-- [`m04l05-02/`](m04l05-02/)
-- [`m04l05-03/`](m04l05-03/)
-- [`m04l05-04/`](m04l05-04/)
-- [`m04l05-05/`](m04l05-05/)
+## Check yourself
+
+- Why should a worker select on context Done?
+- What happens when a child replaces context with background?
+- How should shutdown coordinate worker cleanup?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

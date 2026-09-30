@@ -1,23 +1,22 @@
-# Executing Concurrent Checks
+# m07l02 · Executing Concurrent Checks
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: Project: End to End Health Checker  
-**Lesson**: `m07l02`
+Module 7: Project: End to End Health Checker · lesson 7.2 · Pro · [Open the lesson](https://learnsome.tech/learn/go-course/m07l02)
 
-## Links
+**Goal:** You can run checks concurrently, collect one result per target, and preserve a useful report order.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m07l02)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-7-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l02-02](m07l02-02/) | Collecting concurrent results | Runs, not graded |
+| [m07l02-04](m07l02-04/) | A result carries identity | Graded |
 
-- [`m07l02-01/`](m07l02-01/)
-- [`m07l02-02/`](m07l02-02/)
-- [`m07l02-03/`](m07l02-03/)
-- [`m07l02-04/`](m07l02-04/)
-- [`m07l02-05/`](m07l02-05/)
+## Check yourself
+
+- Why does each result carry a target name?
+- Who closes the result channel?
+- How do you preserve report order?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

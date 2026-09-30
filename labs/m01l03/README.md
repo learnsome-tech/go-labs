@@ -1,27 +1,36 @@
-# Go Workspaces and Modules
+# m01l03 · Go Workspaces and Modules
 
-**Course**: [Concurrent Systems Programming with Go](https://learnsome.tech/courses/go-course)  
-**Module**: The Go Toolchain and Fundamentals  
-**Lesson**: `m01l03`
+Module 1: The Go Toolchain and Fundamentals · lesson 1.3 · Free · [Open the lesson](https://learnsome.tech/learn/go-course/m01l03)
 
-## Links
+**Goal:** You can start a module, split a tool into packages with import paths that follow from the module path, keep dependencies tidy and vendored, and use a workspace file when a tool and a shared library sit in one checkout.
 
-- [Watch lesson](https://learnsome.tech/courses/go-course/watch?lesson=m01l03)
-- [Handbook](https://learnsome.tech/courses/go-course/book#lesson-1-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m01l03-03](m01l03-03/) | Splitting a tool into packages | Graded |
+| [m01l03-05](m01l03-05/) | Tidy and vendor, and what they are for | Runs, not graded |
 
-- [`m01l03-01/`](m01l03-01/)
-- [`m01l03-02/`](m01l03-02/)
-- [`m01l03-03/`](m01l03-03/)
-- [`m01l03-04/`](m01l03-04/)
-- [`m01l03-05/`](m01l03-05/)
-- [`m01l03-06/`](m01l03-06/)
-- [`m01l03-07/`](m01l03-07/)
-- [`m01l03-08/`](m01l03-08/)
-- [`m01l03-09/`](m01l03-09/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Try it yourself
+
+1. Start a module, then add a package under a directory called internal.
+2. Export one function from it, call it from the main package, and build.
+3. Try importing that internal package from a second module and read the error.
+
+> **Hint:** The import path is your module path plus a slash plus the directory name.
+
+## Check yourself
+
+- What is the difference between a package, a module and a workspace?
+- How does the toolchain know whether a name is visible to other packages?
+- What does a directory named internal do to imports from other modules?
+- When would you vendor dependencies rather than fetch them?
+- Why is a workspace file usually not committed?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Concurrent Systems Programming with Go on LearnSome.tech](https://learnsome.tech/courses/go-course)

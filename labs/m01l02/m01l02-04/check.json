@@ -1,0 +1,23 @@
+{
+  "lab": "m01l02-04",
+  "lesson": "m01l02",
+  "title": "Formatting is settled, not argued about",
+  "mode": "run",
+  "runner": "go",
+  "command": "go run .",
+  "main": "main.go",
+  "files": [
+    "README.md",
+    "go.mod",
+    "main.go",
+    "run.sh",
+    "verification.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "go"
+  ],
+  "note": "the lesson recorded its output with `gofmt -l .; gofmt -w main.go; gofmt -l .`, not the way the site runs it, so the output is not compared."
+}
